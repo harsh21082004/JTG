@@ -122,7 +122,7 @@ body {
     margin: auto;
 }
 
-.try-btn{
+.try-btn {
     margin: 20px 0;
     width: 236px;
     height: 52px;
@@ -135,37 +135,87 @@ body {
     font-weight: 700;
 }
 
-.features-content{
+.features-content {
     max-width: 550px;
     margin: auto;
+    margin-top: 115px;
 }
 
-.features-content h3{
+.features-content h3 {
     font-size: 48px;
-    color: #000000;
+    color: #252B42;
     font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.features-content p {
+    font-size: 28px;
+    color: #374754;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.features-cards {
+    max-width: 869px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 80px;
+    height: 100%;
+}
+
+.features-card {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 10px;
+    gap: 20px;
+}
+
+.features-card p {
+    color: #374754;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
     text-align: center;
 }
 
-.features{
+.features-card h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #252B42;
+}
+
+.features {
     width: 100%;
 }
 
-.features-video{
+.features-video {
     width: 66.23%;
     position: relative;
     margin: auto;
+    margin-top: 132px;
 
 }
 
-.features-video video{
+.features-video video {
     width: 100%;
     height: 100%;
     box-shadow: 0px 8.15px 63.14px 0px #00000026;
     border-radius: 45px;
 }
 
-.play-btn{
+.play-btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -181,8 +231,50 @@ body {
     align-items: center;
 }
 
-.play-btn img{
+.play-btn img {
     width: 21.4%;
     aspect-ratio: 1/1;
     margin-left: 2.5%;
+}
+
+.try-section {
+    width: 70%;
+    margin: 226px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.try-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.try-content h4 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    max-width: 333px;
+}
+
+.try-content p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #374754;
+    max-width: 530px;
+}
+
+.subscribe-section{
+    width: 81%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 43px 0;
 }
